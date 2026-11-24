@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1080">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2b1d4e"/><stop offset="1" stop-color="#0f1530"/></linearGradient>
+    <radialGradient id="dough" cx="0.45" cy="0.35" r="0.7"><stop offset="0" stop-color="#fff3dc"/><stop offset="0.6" stop-color="#f1d4a3"/><stop offset="1" stop-color="#c99a5b"/></radialGradient>
+    <linearGradient id="bowl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7c5cff"/><stop offset="1" stop-color="#3b2a8f"/></linearGradient>
+  </defs>
+  <rect width="900" height="1080" fill="url(#sky)"/>
+  <circle cx="720" cy="190" r="110" fill="#22d3ee" opacity="0.18"/>
+  <circle cx="160" cy="320" r="60" fill="#f472b6" opacity="0.2"/>
+  <path d="M120 602 A330 40 0 0 1 780 602" fill="none" stroke="#a593ff" stroke-width="10" stroke-linecap="round"/>
+  <ellipse cx="450" cy="560" rx="300" ry="230" fill="url(#dough)"/>
+  <g fill="#c99a5b" opacity="0.45"><circle cx="380" cy="470" r="14"/><circle cx="520" cy="430" r="10"/><circle cx="470" cy="560" r="18"/><circle cx="600" cy="540" r="9"/><circle cx="330" cy="590" r="11"/></g>
+  <path d="M120 600 Q450 690 780 600 L720 900 Q450 980 180 900 Z" fill="url(#bowl)"/>
+  <path d="M120 602 A330 40 0 0 0 780 602" fill="none" stroke="#a593ff" stroke-width="10" stroke-linecap="round"/>
+</svg>

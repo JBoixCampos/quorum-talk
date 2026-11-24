@@ -1,0 +1,15 @@
+{
+  "name": "template",
+  "private": true,
+  "description": "A talk made with Quorum: https://github.com/JBoixCampos/quorum",
+  "scripts": {
+    "studio": "quorum studio",
+    "check": "quorum check",
+    "present": "quorum present",
+    "export": "quorum export --pptx",
+    "prepare": "quorum repo --quiet"
+  },
+  "devDependencies": {
+    "quorum": "github:JBoixCampos/quorum"
+  }
+}

@@ -1,0 +1,2 @@
+# Merge talk.md slide by slide (set up by `npm install` or `quorum repo`).
+talk.md merge=quorum
